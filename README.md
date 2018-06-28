@@ -22,11 +22,11 @@ GET request returns the statistics for transactions occured in past 60s.
 
 To install the jar, run:
 ```
-mvn install
+make install
 ```
 
 In order to run it as a Docker Container on your machine, run:
 ```
-mvn run-app
+make run-app
 ```
 and the service will start serving on port 6000.
